@@ -1,11 +1,20 @@
 <template>
+  
+     <v-parallax height="100vh"
+    
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+  >
   <v-container>
     <div class="fluid-xy">
+      
       <h2>Hello, I'm <span class="glitch" data-text="
 Lorum">Lorum</span></h2>
       <h1>A front-end developer / creative customizer who loves creating things that are beautiful and functional.</h1>
+     
     </div>
-  </v-container>
+    </v-container>
+     </v-parallax>
+  
 </template>
 <script>
 export default {};
